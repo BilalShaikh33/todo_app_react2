@@ -1,18 +1,9 @@
-import { Todo } from "./components/Todo"
+import Todo from "./components/Todo";
 
-
-function App() {
-const supabaseUrl =  import.meta.env.VITE_SUPABASEURL
-  console.log(supabaseUrl)
-
-
+export default function App() {
   return (
-
-    
-
-    <Todo/>
-  
-  )
+    <div>
+      <Todo />
+    </div>
+  );
 }
-
-export default App
